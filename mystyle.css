@@ -93,7 +93,7 @@ td, th{
     display: flex;
     justify-content: space-between; /*horizontal*/
     align-items: center; /*vertical*/
-    margin-top: 70vh; /*70% of the viewport height*/
+    height: 70vh; /*70% of the viewport height*/
 }
 
 header{
@@ -121,7 +121,7 @@ header{
     color: rgb(12, 116, 121);
     border: 1px solid rgb(12, 116, 121);
     border-radius: 3px;
-    padding: 5px;
+    padding: 3px;
     font-size: 12px;
     margin-right: 5px;
 }
