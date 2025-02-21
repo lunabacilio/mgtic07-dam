@@ -81,10 +81,12 @@ td, th{
 .my-info h1{
     font-weight: 400;
     font-size: 42px;
+    font-family: inherit;
 }
 
 .my-info p{
     font-size: 22px;
+    font-family: inherit;
 }
 
 /*main*/
@@ -147,11 +149,12 @@ header{
 /*portfolio*/
 .top-messages {
     text-align: center;
+    margin-right: 200px;
 }
 .portfolio-container {
     width: 100%;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 250px;
     margin-top: 20px;
 }
 .porfolio-table {
@@ -246,5 +249,13 @@ tr:nth-child(odd) { /* even or odd */
 
 .project-text{
     text-align: left;
+    padding-top: 10px;
+}
+
+.project-image{
+    display: block;
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 10px;
 }
