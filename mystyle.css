@@ -146,12 +146,12 @@ header{
     cursor: pointer;
 }
 
-/*portfolio*/
+/*project*/
 .top-messages {
     text-align: center;
     margin-right: 200px;
 }
-.portfolio-container {
+.project-container {
     width: 100%;
     margin-left: auto;
     margin-right: 250px;
