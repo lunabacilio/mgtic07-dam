@@ -54,6 +54,7 @@ td, th{
     height: 60px;
     background-color: white;
     padding-left: 20px;
+    width: 100%;
 }
 
 .menu-nav a{
@@ -99,7 +100,7 @@ td, th{
 }
 
 header{
-    width: 40%;
+    width: 100%;
 }
 
 .interest-flex{
@@ -259,3 +260,14 @@ tr:nth-child(odd) { /* even or odd */
     margin-right: auto;
     padding-top: 10px;
 }
+
+/*@media(max-width: 768px){
+    body{
+        background-color: violet;
+    }
+    a{
+        display: none;
+    }
+}*/
+
+
